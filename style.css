@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    flex: 1;
+  }
+  .row {
+    display: flex;
+    flex: 1;
+  }
+  .board {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
